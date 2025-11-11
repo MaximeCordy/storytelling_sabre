@@ -1,0 +1,17 @@
+.g_grotte img {
+  object-fit: cover;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  z-index: 1;
+}
+.g_planet img {
+  max-width: 50%;
+  position: relative;
+  bottom: 50%;
+  top: -70%;
+  left: 56%;
+  z-index: -1;
+  margin-top: -75%;
+  margin-left: -55%;
+}

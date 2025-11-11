@@ -4,8 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Anime l'objet  lorsque son centre arrive en bas du viewport
-// Il devient visible et est déplacé horizontalement de -25%
+//ANIMATION TITRE//
+
 gsap.to("#title", {
   opacity: 1,
   y: "-150%",
@@ -24,18 +24,18 @@ gsap.to("#title2", {
     scrub: 1,
   },
 });
-gsap
-  // Anime l'objet  lorsque son centre arrive en bas du viewport
-  // Il devient visible et est déplacé horizontalement de 25%
-  .to("#oiseau-1", {
-    opacity: 1,
-    x: "200%",
-    scrollTrigger: {
-      trigger: "#oiseau-1",
-      start: "top bottom",
-      scrub: 1,
-    },
-  });
+
+//ANIMATION OISEAUX//
+
+gsap.to("#oiseau-1", {
+  opacity: 1,
+  x: "200%",
+  scrollTrigger: {
+    trigger: "#oiseau-1",
+    start: "top bottom",
+    scrub: 1,
+  },
+});
 gsap.to("#oiseau-2", {
   opacity: 1,
   x: "230%",
@@ -65,7 +65,8 @@ gsap.to("#oiseau-4", {
   },
 });
 
-// Crée un effet de scroll horizontal
+//ANIMATION SCROLL HORIZONTAL//
+
 gsap.to(".montagne-paysage", {
   opacity: 1,
   y: "10%",
@@ -84,7 +85,7 @@ gsap.to(".montagne-paysage", {
     trigger: ".montagne-paysage",
     start: " bottom bottom",
     scrub: 1,
-    // start: "+=3300",
+    start: "+=200",
   },
 });
 gsap.to(".slider-container", {
@@ -169,11 +170,11 @@ gsap.to("#item-5", {
   },
 });
 
-gsap.to(".planet", {
+gsap.to(".g_planet", {
   opacity: 1,
   y: "-20%",
   scrollTrigger: {
-    trigger: ".grotte",
+    trigger: ".g_grotte",
     start: "center-top center",
     scrub: 1,
   },
@@ -185,7 +186,7 @@ gsap
     scrollTrigger: {
       trigger: ".parallax-container",
       start: "top top",
-      scrub: 2,
+      scrub: 1,
       pin: true,
     },
   })

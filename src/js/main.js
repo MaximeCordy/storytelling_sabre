@@ -71,7 +71,7 @@ gsap.to(".montagne-paysage", {
   y: "10%",
   scrollTrigger: {
     trigger: ".montagne-paysage",
-    start: "top bottom",
+    start: "middle top",
     scrub: 1,
     start: "-=600",
     end: "-=100",
@@ -81,10 +81,10 @@ gsap.to(".montagne-paysage", {
   opacity: 1,
   x: "-5%",
   scrollTrigger: {
-    trigger: "slider-container",
+    trigger: ".montagne-paysage",
     start: " bottom bottom",
     scrub: 1,
-    start: "+=3300",
+    // start: "+=3300",
   },
 });
 gsap.to(".slider-container", {
@@ -108,9 +108,11 @@ gsap.to(".slider-item", {
   },
 });
 
+// //items//
+
 gsap.to("#item-1", {
   opacity: 1,
-  y: "-15%",
+  y: "-12%",
   scrollTrigger: {
     trigger: ".montagne-paysage",
     start: "bottom center",
@@ -120,18 +122,6 @@ gsap.to("#item-1", {
   },
 });
 gsap.to("#item-2", {
-  opacity: 1,
-  y: "-25%",
-  scrollTrigger: {
-    trigger: ".montagne-paysage",
-    start: "bottom center",
-    scrub: 1,
-    start: "-=500",
-    end: "-=150",
-  },
-});
-
-gsap.to("#item-3", {
   opacity: 1,
   y: "-20%",
   scrollTrigger: {
@@ -143,9 +133,21 @@ gsap.to("#item-3", {
   },
 });
 
+gsap.to("#item-3", {
+  opacity: 1,
+  y: "-15%",
+  scrollTrigger: {
+    trigger: ".montagne-paysage",
+    start: "bottom center",
+    scrub: 1,
+    start: "-=500",
+    end: "-=150",
+  },
+});
+
 gsap.to("#item-4", {
   opacity: 1,
-  y: "-25%",
+  y: "-20%",
   scrollTrigger: {
     trigger: ".montagne-paysage",
     start: "bottom center",
@@ -157,7 +159,7 @@ gsap.to("#item-4", {
 
 gsap.to("#item-5", {
   opacity: 1,
-  y: "-25%",
+  y: "-20%",
   scrollTrigger: {
     trigger: ".montagne-paysage",
     start: "bottom center",

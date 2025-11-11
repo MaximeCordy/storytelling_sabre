@@ -4,19 +4,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap
-  // Anime l'objet  lorsque son centre arrive en bas du viewport
-  // Il devient visible et est déplacé horizontalement de 25%
-  .to("#oiseau-1", {
-    opacity: 1,
-    x: "150%",
-    scrollTrigger: {
-      trigger: "#oiseau-1",
-      start: "top bottom",
-      scrub: 1,
-    },
-  });
-
 // Anime l'objet  lorsque son centre arrive en bas du viewport
 // Il devient visible et est déplacé horizontalement de -25%
 gsap.to("#title", {
@@ -37,10 +24,21 @@ gsap.to("#title2", {
     scrub: 1,
   },
 });
-
+gsap
+  // Anime l'objet  lorsque son centre arrive en bas du viewport
+  // Il devient visible et est déplacé horizontalement de 25%
+  .to("#oiseau-1", {
+    opacity: 1,
+    x: "200%",
+    scrollTrigger: {
+      trigger: "#oiseau-1",
+      start: "top bottom",
+      scrub: 1,
+    },
+  });
 gsap.to("#oiseau-2", {
   opacity: 1,
-  x: "180%",
+  x: "230%",
   scrollTrigger: {
     trigger: "#oiseau-2",
     start: "top bottom",
@@ -54,11 +52,12 @@ gsap.to("#oiseau-3", {
     trigger: "#oiseau-3",
     start: "top bottom",
     scrub: 1,
+    start: "-=700",
   },
 });
 gsap.to("#oiseau-4", {
   opacity: 1,
-  x: "40%",
+  x: "150%",
   scrollTrigger: {
     trigger: "#oiseau-4",
     start: "top bottom",

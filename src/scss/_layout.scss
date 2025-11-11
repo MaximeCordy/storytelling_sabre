@@ -1,0 +1,74 @@
+.container {
+  min-height: 200vh;
+  margin-top: 10%;
+}
+.background {
+  background-image: url(../img/ciel-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+body img {
+  object-fit: cover;
+}
+.container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30%;
+  padding-bottom: 5%;
+  flex-direction: column;
+}
+.object-title {
+  border: 5px solid rgb(108, 202, 71);
+  width: 10%;
+  height: 80px;
+  opacity: 1;
+  border-radius: 10px;
+}
+.spacer {
+  height: 100vh;
+  margin-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc33,
+    #606dbc33 10px,
+    #606dbc00 10px,
+    #606dbc00 20px
+  );
+}
+
+.object-wrapper {
+  display: flex;
+  margin: 100px 0;
+}
+
+.object {
+  border: 5px solid blue;
+  width: 30%;
+  height: 200px;
+  opacity: 1;
+  border-radius: 10px;
+}
+#title img {
+  max-width: 100%;
+}
+#oiseau-1 img {
+  max-width: 100%;
+  position: absolute;
+}
+
+#oiseau-2 img {
+  max-width: 100%;
+}
+#oiseau-3 img {
+  max-width: 200%;
+}
+
+#oiseau-4 img {
+  max-width: 100%;
+}

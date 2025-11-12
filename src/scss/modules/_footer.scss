@@ -1,0 +1,30 @@
+.footer-container-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30%;
+  margin-top: -18%;
+  margin-left: 60%;
+}
+
+footer {
+  background-color: black;
+}
+
+#footer-title2 {
+  top: auto;
+  color: white;
+}
+.footer-img {
+  margin-top: -15%;
+  margin-left: 5%;
+}
+.footer-text {
+  position: absolute;
+  z-index: 10000;
+  max-width: 400px;
+}
+.footer-list {
+  margin-top: 70%;
+}

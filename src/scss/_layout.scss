@@ -19,7 +19,7 @@
   flex-direction: column;
 }
 .object-title {
-  border: 5px solid rgb(108, 202, 71);
+  border: 5px ridge rgb(108, 202, 71);
   width: 10%;
   height: 80px;
   opacity: 1;
@@ -32,7 +32,8 @@
 }
 
 .object {
-  border: 5px solid blue;
+  border-color: aqua;
+  border-style: ridge;
   width: 30%;
   height: 200px;
   opacity: 1;

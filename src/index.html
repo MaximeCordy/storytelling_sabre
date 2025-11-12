@@ -2,8 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>Sabre - Eric Feres</title>
+    <meta
+      name="description"
+      content="SABRE est une BD d’action futuriste mêlant sabres, rébellion et honneur, dans un monde où technologie et tradition s’affrontent."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Storytelling Sabre" />
+    <link rel="icon" sizes="32x32" href="img/sabre_contemplation.png" />
     <link rel="stylesheet" href="scss/main.scss" />
     <link
       href="https://fonts.cdnfonts.com/css/helvetica-neue-5"
@@ -15,12 +21,22 @@
   </body>
 </html>
 <div class="l-background">
-  <div class="container-title">
-    <div id="title" class="object">
-      <img src="img/Title_Sabre.png?as=webp" alt="Titre" />
+  <header>
+    <div class="header">
+      <a href="#ciel">Ciel</a>
+      <a href="#plaine">Plaine</a>
+      <a href="#caverne">Caverne</a>
+      <a href="#acheter">Livre</a>
     </div>
-    <div id="title2" class="object-title"><h1>Eric Feres</h1></div>
-  </div>
+  </header>
+  <section id="ciel">
+    <div class="container-title">
+      <div id="title" class="object">
+        <img src="img/Title_Sabre.png?as=webp" alt="Titre" />
+      </div>
+      <div id="title2" class="object-title"><h1>Eric Feres</h1></div>
+    </div>
+  </section>
   <div class="container">
     <div class="object-wrapper">
       <div id="oiseau-1" class="object">
@@ -45,6 +61,7 @@
   </div>
 </div>
 <div class="l-degrade"></div>
+<section id="plaine"></section>
 <div class="slider-mask">
   <div class="slider-container">
     <div class="parapaysage">
@@ -60,7 +77,7 @@
       <img src="img/bison_3.png?as=webp" alt="bison_3" />
     </div>
     <div id="item-2" class="slider-item">
-      <img src="img/bison_1.png?as=webp" alt="bison_3" />
+      <img src="img/bison_1.png?as=webp" alt="bison_1" />
     </div>
     <div id="item-3" class="slider-item">
       <img src="img/bison_2.png?as=webp" alt="bison_2" />
@@ -76,11 +93,54 @@
     </div>
   </div>
 </div>
+
 <div class="container_grotte">
   <div class="g_grotte">
-    <img src="img/grotte.png" alt="grotte" />
+    <img src="img/grotte.png?as=webp" alt="grotte" />
   </div>
-  <div class="g_planet">
-    <img src="img/planet copie.png" alt="planet" />
-  </div>
+  <section id="caverne">
+    <div class="g_planet">
+      <img src="img/planet copie.png?as=webp" alt="planet" />
+    </div>
+    <div class="g_tigre">
+      <img
+        src="img/sabre_contemplation.png?as=webp&width=700"
+        alt="sabre_tigre"
+      />
+    </div>
+  </section>
+  <section id="acheter">
+    <footer>
+      <div class="footer">
+        <div class="footer-container-title">
+          <div id="title-footer" class="footer_logo">
+            <img
+              src="img/Title_Sabre_footer.png?as=webp&width=400"
+              alt="footer-Titre"
+            />
+          </div>
+          <div id="footer-title2" class="object-footer">
+            <h1>Eric Feres</h1>
+          </div>
+          <div class="footer-text-complet">
+            <p class="footer-text">
+              15.000 ans avant notre ère, durant le pléistocène, la Terre
+              connaît une période de glaciation.Dans un lieu encore épargné par
+              le froid, un étrange éclair s'abat une nuit au sommet d'une
+              montagne. À l'intérieur d'une grotte naissent au même moment trois
+              tigres à dents de sabre. L'un d'eux, Sabre, est particulièrement
+              différent des autres...
+            </p>
+            <ul class="footer-list">
+              <li>Dimension: 14mm x 185mm x 235mm</li>
+              <li>Nombre de page: 256</li>
+              <li>Éditeur: Dargaud Parution : 29 mars 2019</li>
+            </ul>
+          </div>
+      </div>
+      <div class="footer-img">
+        <img src="img/mockup_livre.png?as=webp&width=700" alt="Livre" />
+      </div>
+    </footer>
+  </section>
 </div>
